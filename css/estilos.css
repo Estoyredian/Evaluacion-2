@@ -1,0 +1,35 @@
+/*noticia index*/
+.noticia img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    display: block;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: solid black 1px;
+}
+.noticia{
+    padding-bottom: 50px;
+    border: solid black 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.noticia h5{
+    margin-top: 10px;
+}
+
+@media(min-width: 60%){
+.noticia{
+    width: 60%;
+}
+}
+
+
+/*informacion alumno index*/
+#inf.card.container h5,#inf.card.container p{
+    text-align: center;
+    margin:2px;
+}
