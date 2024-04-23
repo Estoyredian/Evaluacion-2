@@ -1,35 +1,63 @@
-/*noticia index*/
-.noticia img{
-    height: 100px;
-    width: 100px;
-    float: left;
-    display: block;
-    margin-right: 20px;
-    margin-top: 10px;
-    border: solid black 1px;
+/*Acerca de*/
+.container.bg-body-tertiary p{
+    text-align: center;
+    padding: 20px;
 }
-.noticia{
-    padding-bottom: 50px;
-    border: solid black 1px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
+.container.bg-body-tertiary{
+    margin-top: 2px;
 }
-.noticia h5{
-    margin-top: 10px;
-}
+/*Carrusel*/
 
-@media(min-width: 60%){
-.noticia{
-    width: 60%;
+  .carousel-item img {
+    height: 350px;
+  }
+/*news*/
+.news{
+    max-width: 60%;
+    margin: auto;
 }
-}
-
 
 /*informacion alumno index*/
 #inf.card.container h5,#inf.card.container p{
     text-align: center;
     margin:2px;
+}
+
+#log {
+    width: 60%;
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+#log h3 {
+    margin-top: 10px;
+}
+#btn-confirmar{
+    display: flex;
+    align-items: center;
+}
+
+.Gcard h5{
+    margin-top: 2px;
+    text-align: center;
+}
+
+/*background*/
+body{
+    background-size: 50%;
+}
+
+
+/*Estilos Galeria*/
+
+.Gcard img{
+    width: 200px;
+    height: 200px;
+    border: solid rgb(195, 190, 187) 0.5px;
+    align-self: center;
+}
+
+/*footer*/
+div footer{
+    margin-top: 20px;
 }
